@@ -68,6 +68,14 @@ def ofunc():
         print(i)
     def ifunc():
         print(student)
+    ifunc() # nothing this is being called from outter function. 
+   
+ofunc()
+# this will print 
+a
+b
+from inside ['a', 'b']
+
 
 
 # lambda functions
