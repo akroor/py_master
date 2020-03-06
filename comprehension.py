@@ -106,3 +106,15 @@ list = list(filter(div3, range(1,100)))
 print(list)
 
 
+# perl map is same as python map function
+# and usually together with lambda e.g.
+# Unlike perl python returns map object, which has to be converted
+# into list or set or some other iterable structure
+
+a_list = [1,2,3,4,5,]
+m_list = map( lambda x: x*2, a_list)
+# map object to list conversion - must be done
+print(list(m_list))
+
+# output will be  => [2, 4, 6, 8, 10]
+
